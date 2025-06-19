@@ -1,0 +1,39 @@
+´´´html
+<div class="offcanvas offcanvas-end" tabindex="-1" id="OffCanvasEdit" aria-labelledby="EditProdutoLabel">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title" id="EditProdutoLabel">Editar Produto</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <form action="" id="EditFormProd">
+                                        <input type="hidden" id="id">
+
+                                        <label for="nomeeditproduto">Nome do produto</label>
+                                        <input type="text" id="nomeeditproduto" class="form-control mb-3">
+
+                                        <label for="categoriaEditProduto">Categoria do produto</label>
+                                        <select id="categoriaEditProduto" class="form-control mb-3">
+                                          <option selected disabled>Selecione</option>
+                                          <option value="Destilados">Destilados</option>
+                                          <option value="Cerveja">Cerveja</option>
+                                          <option value="Vinho">Vinho</option>
+                                          <option value="Licor">Licor</option>
+                                        </select>
+
+                                        <label for="imagemeditproduto">URL da imagem do produto</label>
+                                        <input type="text" id="imagemeditproduto" class="form-control mb-3">
+
+                                        <label for="descriçãoeditproduto">Descrição do produto</label>
+                                        <input type="text" id="descriçãoeditproduto" class="form-control mb-3">
+
+                                        <label for="precoeditproduto">Preço do produto</label>
+                                        <input type="text" id="precoeditproduto" class="form-control mb-3">
+
+                                        <label for="quantidadeeditproduto">Quantidade do produto</label>
+                                        <input type="number" id="quantidadeeditproduto" class="form-control mb-3">
+
+                                        <button type="submit" class="btn btn-primary w-100">Salvar alterações</button>
+                                    </form>
+                                </div>
+                            </div>
+´´´

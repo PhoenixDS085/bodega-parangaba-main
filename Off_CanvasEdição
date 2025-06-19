@@ -1,4 +1,4 @@
-´´´html
+```html
 <div class="offcanvas offcanvas-end" tabindex="-1" id="OffCanvasEdit" aria-labelledby="EditProdutoLabel">
                                 <div class="offcanvas-header">
                                     <h5 class="offcanvas-title" id="EditProdutoLabel">Editar Produto</h5>
@@ -36,4 +36,4 @@
                                     </form>
                                 </div>
                             </div>
-´´´
+```
